@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',  # If you are using Django REST Framework
-    'orders',          # Add this line
+    'sweetspot_app',          # Add this line
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "sweetspot.urls"
+ROOT_URLCONF = "sweetspot_pro.urls"
 
 TEMPLATES = [
     {

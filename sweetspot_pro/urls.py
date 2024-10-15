@@ -20,6 +20,6 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('orders.urls')),
+    path('api/', include('sweetspot_app.urls')),
     path('', RedirectView.as_view(url='/api/', permanent=False)),  # Redirect root URL to /api/
 ]
